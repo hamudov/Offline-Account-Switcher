@@ -1,0 +1,27 @@
+modLoader="javafxmod"
+loaderVersion="[52,)"
+license="GNU Lesser General Public License v3.0"
+showAsIcon=true
+
+[[mods]]
+modId="offlineaccountswitcher"
+version="${file.jarVersion}"
+displayName="Offline Account Switcher"
+logoFile="offlineaccountswitcher_logo.png"
+credits="Created by hamudov"
+authors="hamudov"
+description="A Minecraft Forge mod that allows you to change your nickname in-game on offline servers (like TLauncher) without restarting the game. Features customizable keybindings."
+
+[[dependencies.offlineaccountswitcher]]
+    modId="forge"
+    mandatory=true
+    versionRange="[52,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.offlineaccountswitcher]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.1,)"
+    ordering="NONE"
+    side="BOTH"
